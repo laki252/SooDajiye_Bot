@@ -124,7 +124,7 @@ async def ensure_joined(client, obj) -> bool:
     kb = InlineKeyboardMarkup([
         [InlineKeyboardButton("🔗 Ku Biir Channel-ka", url=f"https://t.me/{clean_channel_username}")]
     ])
-    text = f"🚫 **Fadlan ku biir channel-kayaga {REQUIRED_CHANNEL} si aad u isticmaasho bot-kan.**\n\nMarka aad ku biirto, soo dir link-iga mar kale."
+    text = f"🚫 **Marka hore ku biir channel-kayaga {REQUIRED_CHANNEL} si aad u isticmaasho bot-kan.**\n\nMarka aad ku biirto, soo dir link ga ok"
     try:
         if isinstance(obj, CallbackQuery):
             try:
@@ -395,11 +395,11 @@ async def start(client, message: Message):
     await register_user(message.from_user.id, message.from_user.username, message.from_user.first_name)
     await message.reply(
         "👋 **Soo Dhawoow!**\n"
-        "Soo dir link-iga fiidiyowga ee goobaha hoos ku xusan si aad u soo dejiso.\n\n"
-        "**Goobaha La Taageero:**\n"
-        "• YouTube\n"
+        "Soo dir link-iga fiidiyowga ee goobaha hoos ku xusan si aan kuugu soo dajiyo\n\n"
+        "**Goobaha aan Taageero:**\n"
         "• Facebook\n"
         "• Pinterest\n"
+        "• YouTube\n"
         "• X (Twitter)\n"
         "• TikTok\n"
         "• Instagram"
