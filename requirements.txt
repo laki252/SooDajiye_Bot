@@ -1,1 +1,12 @@
-
+pyrogram
+tgcrypto
+yt-dlp
+aiohttp
+aiofiles
+flask
+requests
+pymongo
+motor
+dnspython
+quart
+pyTelegramBotAPI
