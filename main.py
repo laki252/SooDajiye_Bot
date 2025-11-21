@@ -64,7 +64,7 @@ YDL_OPTS_DEFAULT = {
 }
 
 SUPPORTED_DOMAINS = [
-    "youtube.com", "youtu.be", "facebook.com", "fb.watch", "pin.it",
+    "youtube.com", "youtu.be", "https://", "facebook.com", "fb.watch", "pin.it",
     "x.com", "tiktok.com", "snapchat.com", "instagram.com"
 ]
 
